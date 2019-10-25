@@ -40,7 +40,7 @@ erro:
     ;
 
 command:
-      IF OP expr CP OCB expr CCB   {printf("Comando IF identificado!\n");}                       |
+      IF OP expr CP OCB expr_stmt CCB   {printf("Comando IF identificado!\n");}                       |
       IF OP expr CP OCB expr_stmt CCB ENTER ELSE OCB expr_stmt CCB  {printf("Comando IF/ELSE identificado!\n");} |
 	    FOR OP expr_stmt expr_stmt expr CP OCB expr_stmt CCB {printf("Comando FOR identificado!\n");}   |
       WHILE OP expr CP OCB expr_stmt CCB  {printf("Comando WHILE identificado!\n");}                  |
