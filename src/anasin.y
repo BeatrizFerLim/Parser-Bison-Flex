@@ -20,7 +20,7 @@
 
 start: 
       %empty                                                                  |
-      BEGIN_CODE ENTER  body  END_CODE {printf("Fim do programa!");}
+      BEGIN_CODE ENTER  body  END_CODE {printf("Fim do programa!\n");}
       ;
 
 body:
