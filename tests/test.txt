@@ -1,0 +1,13 @@
+    begin 
+    int i = 0;
+    int a = 8;
+    int b = a;
+    int h;
+    string t;
+    while(i < a){i++;};
+    if(i == a){A=0;}
+    else{A=2;};
+    print("Hello world");
+    for(h = 0; h<10; h++){t = "Hey";};
+    i=0;
+    end
